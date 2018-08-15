@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <!-- Change color of status bar -->
+        <item name="colorPrimaryDark">@color/indigo_500</item>
+
+        <!--< We can use a drawable for splash theme (which we can custom color and add a image) or simple use a normal color-->
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+
+        <!--<item name="android:windowBackground">@color/indigo_500</item>-->
+    </style>
+
+</resources>
